@@ -118,7 +118,7 @@ let reducers: {
   },
 }
 
-let DisclosureContext = createContext<[StateDefinition, Dispatch<Actions>] | null>(null)
+export let DisclosureContext = createContext<[StateDefinition, Dispatch<Actions>] | null>(null)
 DisclosureContext.displayName = 'DisclosureContext'
 
 function useDisclosureContext(component: string) {
