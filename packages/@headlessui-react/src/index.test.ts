@@ -31,8 +31,8 @@ it('should expose the correct components', () => {
 
     'Disclosure',
     'DisclosureButton',
-    'DisclosurePanel',
     'DisclosureContext',
+    'DisclosurePanel',
 
     'Field',
     'Fieldset',
